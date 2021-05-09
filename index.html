@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Zira Tickets</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="filter-container">
+                <div class="filter">
+                    <span class="pink-color-btn"></span>
+                </div>
+                <div class="filter">
+                    <span class="blue-color-btn"></span>
+                </div>
+                <div class="filter">
+                    <span class="green-color-btn"></span>
+                </div>
+                <div class="filter">
+                    <span class="red-color-btn"></span>
+                </div>
+            </div>
+            <div class="add-delete-container">
+                <span class="add">
+                    <span class="material-icons action-btn">note_add</span>
+                </span>
+                <span class="delete">
+                    <span class="material-icons action-btn">delete_outline</span>
+                </span>
+            </div>
+        </div>
+        <div class="ticket-container"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script>
+        var uid = new ShortUniqueId()
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
